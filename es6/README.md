@@ -1,8 +1,10 @@
-Install Webpack:
+# Guide
+
+###### Install Webpack:
   npm install webpack --save-dev
   
-Install Webpack Server:
+###### Install Webpack Server:
   npm install --save-dev webpack-dev-server
   
- Install Babel:
+ ###### Install Babel:
   npm install @babel/core @babel/preset-env @babel/cli babel-loader --save-dev
