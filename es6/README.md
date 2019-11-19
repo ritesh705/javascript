@@ -5,4 +5,4 @@ Install Webpack Server:
   npm install --save-dev webpack-dev-server
   
  Install Babel:
-  npm install @babel/core @babel/preset babel-loader --save-dev
+  npm install @babel/core @babel/preset-env babel-loader --save-dev
