@@ -1,10 +1,4 @@
-class Car
-{
-    constructor(brandName)
-    {
-        this.brandName = brandName;
-    }
-}
+import Car from './Car';
 
 class Model extends Car
 {
@@ -20,9 +14,4 @@ class Model extends Car
     }
 }
 
-// Arrow Function
-hello=(val)=>{console.log(val)}
-
-model = new Model("Suzuki", "Baleno");
-model.getCarDetails();
-hello("Arrow Function");
+export default Model;

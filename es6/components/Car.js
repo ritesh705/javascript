@@ -1,10 +1,9 @@
-export default class Car
+class Car
 {
     constructor(brandName)
     {
         this.brandName = brandName;
     }
-
     getBrandName()
     {
         console.log("Car is of brand "+this.brandName);
@@ -12,5 +11,4 @@ export default class Car
     }
 }
 
-car = new Car("Suzuki");
-car.getBrandName();
+export default Car;
