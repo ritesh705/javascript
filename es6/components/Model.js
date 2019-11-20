@@ -11,6 +11,8 @@ class Model extends Car
     getCarDetails()
     {
         console.log("Car Brand > "+this.brandName+", Car Model > "+this.modelName);
+        super.setCarName();
+        console.log("Var Name : "+this.name);
     }
 }
 
