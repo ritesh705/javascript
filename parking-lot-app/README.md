@@ -1,5 +1,7 @@
 # Guide
 
+## App for parking lot system, programmed in ecmascript-6 (Object Oriented JS)
+
 ### **Install Webpack:**
   npm install webpack --save-dev
   
