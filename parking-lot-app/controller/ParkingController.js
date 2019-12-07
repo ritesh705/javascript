@@ -22,6 +22,10 @@ class ParkingController
 			{
 				return parkingSpot;
 			}
+			else
+			{
+				return "Parking Spot Not Available."
+			}
 		}
 	}
 }

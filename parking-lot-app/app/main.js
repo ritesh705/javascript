@@ -16,3 +16,5 @@ var parkingController = new ParkingController();
 parkingController.addParkingSpot(parkingSpot);
 var availableParkingSpot = parkingController.getParkingSpot(vehicle);
 console.log("Parking Spot : "+availableParkingSpot.slotNumber);
+availableParkingSpot.parkVehicle(vehicle);
+console.log(parkingController.getParkingSpot(vehicle));

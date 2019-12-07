@@ -7,4 +7,8 @@
   npm install --save-dev webpack-dev-server
   
  ### **Install Babel:**
-  npm install @babel/core @babel/preset-env @babel/cli babel-loader --save-dev
+  npm install @babel/core @babel/preset-env @babel/cli babel-loader --save-
+  
+
+### **Run**
+	npm run build
