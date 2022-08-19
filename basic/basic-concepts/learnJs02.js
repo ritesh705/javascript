@@ -56,3 +56,9 @@ function showTime()
 {
 	document.getElementById("time").innerHTML= Date();
 }
+
+let age = prompt("enter Age", 0);
+function checkAge(){
+	return (age>18) ? "true":confirm("Are u allowed?")
+};
+checkAge(age);
